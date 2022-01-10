@@ -1,9 +1,5 @@
 # 使用Heroku部署Xray高性能代理服务，通过ws传输的 (vmess、vless、trojan shadowsocks、socks)等协议
 
-> 提醒： 滥用可能导致账户被BAN！！！ 
-
-> 提醒： Heroku 已经封禁本专案，请 Fork 本专案后，将 README.md 中的 someza/helloworld 替换为 自己的用户名/仓库名 后，再进行部署。 
-
 ## 概述
 
 用于在 Heroku 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
@@ -14,9 +10,6 @@ vless 性能更加优秀，占用资源更少。
 * 支持存储自定义文件,目录及账号密码均为UUID,客户端务必使用TLS连接  
   **Heroku 为我们提供了免费的容器服务，我们不应该滥用它，所以本项目不宜做为长期翻墙使用。**
 
-## 镜像
-
-本镜像不会因为大量占用资源而被封号。注册好Heroku账号并登录后,点击下面按钮便可部署.
 
 ### 服务端
 
