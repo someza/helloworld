@@ -29,25 +29,6 @@ vless 性能更加优秀，占用资源更少。
 
 **出于安全考量，除非使用 CDN，否则请不要使用自定义域名，而使用 Heroku 分配的二级域名，以实现 XRay vless Websocket + TLS。**
 
-<details>
-<summary>V2rayN(Xray、V2ray)</summary>
-
-```bash
-* 客户端下载：https://github.com/2dust/v2rayN/releases
-* 代理协议：vless 或 vmess
-* 地址：xxx.herokuapp.com
-* 端口：443
-* 默认UUID：d48ceb40-340e-4a28-825a-ba0cf5a37613
-* vmess额外id：0
-* 加密：none
-* 传输协议：ws
-* 伪装类型：none
-* 伪装域名：xxx.workers.dev(CF Workers反代地址)
-* 路径：/d48ceb40-340e-4a28-825a-ba0cf5a37613-vless // 默认vless使用(/自定义UUID码-vless)，vmess使用(/自定义UUID码-vmess)
-* 底层传输安全：tls
-* 跳过证书验证：false
-```
-</details>
 
 ## vmess vless trojan-go shadowsocks对应客户端参数的参考如下,末尾带()里的内容仅为提示
 
